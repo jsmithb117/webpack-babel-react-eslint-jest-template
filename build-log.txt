@@ -19,6 +19,10 @@ copied from webpack-babel-react-template-with-eslint: {
   Made styling changes as suggested(enforced) by eslint.
 }
 
+Following: https://jestjs.io/docs/en/tutorial-react
 npm install --save-dev jest
 Created App.test.js in ./src
 Added // eslint-disable-line no-unused-vars to index.js and // eslint-disable-line no-unused-vars to App.jsx
+npm install --save-dev babel-jest react-test-renderer
+
+I don't really like how jest works with React.  I feel like my time might be better utilized elsewhere.  I may come back to this later, but for now I'm moving on to other things.
