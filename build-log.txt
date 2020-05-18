@@ -1,0 +1,24 @@
+copied from webpack-babel-react-template-with-eslint: {
+  npm init -y
+  mkdir -p src/client
+  mkdir -p dist
+  touch ./src/index.html ./src/index.js ./src/client/App.js .babelrc webpack.config.js .gitignore
+
+  Populated .babelrc, webpack.config.js, .gitignore
+
+  Populated App.js, index.html, and index.js.
+  Added start and build scripts to package.json
+
+  Installed dependencies
+
+  npm install eslint --save-dev
+  npx eslint --init
+    using airbnb styleguide
+  npm install eslint-loader --save-dev
+  Created .eslintrc.js
+  Made styling changes as suggested(enforced) by eslint.
+}
+
+npm install --save-dev jest
+Created App.test.js in ./src
+Added // eslint-disable-line no-unused-vars to index.js and // eslint-disable-line no-unused-vars to App.jsx
